@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service AC & Kulkas Profesional</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Header akan kita buat di step selanjutnya -->
+<!-- Header -->
+<header id="header" class="header">
+    <nav class="nav container">
+        <!-- Logo -->
+        <div class="logo">
+            <h2>CoolService</h2>
+            <span>AC & Kulkas Specialist</span>
+        </div>
+
+        <!-- Navigation Menu -->
+        <ul class="nav-menu" id="nav-menu">
+            <li><a href="#hero" class="nav-link">Beranda</a></li>
+            <li><a href="#services" class="nav-link">Layanan</a></li>
+            <li><a href="#gallery" class="nav-link">Galeri</a></li>
+            <li><a href="#faq" class="nav-link">FAQ</a></li>
+            <li><a href="booking.html" class="nav-link">Booking</a></li>
+            <li><a href="contact.html" class="nav-link">Kontak</a></li>
+        </ul>
+
+        <!-- Dark Mode Toggle & Mobile Menu -->
+        <div class="nav-actions">
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                <span class="theme-icon">🌙</span>
+            </button>
+            
+            <!-- Mobile Menu Toggle -->
+            <button id="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+</header>
+
+    <main>
+
+        <!-- Hero Section -->
+<section id="hero" class="hero">
+    <div class="hero-background"></div>
+    <div class="container">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Layanan Service <span class="highlight">AC & Kulkas</span> Profesional
+            </h1>
+            <p class="hero-subtitle">
+                Solusi tepat untuk perawatan dan perbaikan AC, Kulkas, dan Showcase Anda. 
+                Teknisi berpengalaman, bergaransi, dan harga terjangkau.
+            </p>
+            
+            <div class="hero-features">
+                <div class="feature-item">
+                    <span class="feature-icon">⚡</span>
+                    <span>Respon Cepat</span>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🔧</span>
+                    <span>Teknisi Ahli</span>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🛡️</span>
+                    <span>Bergaransi</span>
+                </div>
+            </div>
+
+            <div class="hero-actions">
+                <a href="https://wa.me/6281234567890?text=Halo,%20saya%20butuh%20service%20AC/Kulkas" 
+                   class="btn btn-primary" target="_blank">
+                    📞 Hubungi WhatsApp
+                </a>
+                <a href="#services" class="btn btn-secondary">
+                    🔧 Lihat Layanan
+                </a>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Klien Puas</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Layanan Darurat</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Bergaransi</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Layanan Section -->
+<!-- Services Section -->
+<section id="services" class="services">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Layanan Kami</h2>
+            <p class="section-subtitle">Solusi lengkap untuk semua kebutuhan perawatan dan perbaikan perangkat pendingin Anda</p>
+        </div>
+
+        <!-- Services Navigation -->
+        <div class="services-nav">
+            <button class="service-tab active" data-service="ac">
+                <span class="tab-icon">❄️</span>
+                Service AC
+            </button>
+            <button class="service-tab" data-service="kulkas">
+                <span class="tab-icon">🧊</span>
+                Service Kulkas
+            </button>
+            <button class="service-tab" data-service="showcase">
+                <span class="tab-icon">🪟</span>
+                Service Showcase
+            </button>
+        </div>
+
+        <!-- Services Content -->
+        <div class="services-content">
+            <!-- AC Service -->
+            <div class="service-category active" id="service-ac">
+                <div class="service-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🚿</div>
+                        <h3>Cuci AC</h3>
+                        <p>Pembersihan menyeluruh unit indoor dan outdoor, termasuk evaporator dan condenser</p>
+                        <div class="service-price">Mulai dari Rp 75.000</div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">⚡</div>
+                        <h3>Isi Freon</h3>
+                        <p>Pengisian refrigerant sesuai kapasitas dan type AC dengan garansi tekanan</p>
+                        <div class="service-price">Mulai dari Rp 150.000</div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">🔧</div>
+                        <h3>Perbaikan Kelistrikan</h3>
+                        <p>Servis PCB, kapasitor, motor fan, dan komponen elektrik lainnya</p>
+                        <div class="service-price">Mulai dari Rp 100.000</div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">🛠️</div>
+                        <h3>Service Berkala</h3>
+                        <p>Maintenance rutin untuk menjaga performa dan efisiensi AC tetap optimal</p>
+                        <div class="service-price">Mulai dari Rp 120.000</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kulkas Service -->
+            <div class="service-category" id="service-kulkas">
+                <div class="service-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🔧</div>
+                        <h3>Servis Kompresor</h3>
+                        <p>Perbaikan atau penggantian kompresor dengan unit original</p>
+                        <div class="service-price">Mulai dari Rp 300.000</div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">🌡️</div>
+                        <h3>Ganti Thermostat</h3>
+                        <p>Penggantian thermostat untuk menjaga suhu tetap stabil</p>
+                        <div class="service-price">Mulai dari Rp 120.000</div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">💧</div>
+                        <h3>Perbaikan Sistem Defrost</h3>
+                        <p>Servis heater, sensor suhu, dan timer defrost system</p>
+                        <div class="service-price">Mulai dari Rp 180.000</div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">🚿</div>
+                        <h3>Cuci Kulkas</h3>
+                        <p>Pembersihan interior, evaporator, dan saluran drainase</p>
+                        <div class="service-price">Mulai dari Rp 90.000</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Showcase Service -->
+            <div class="service-category" id="service-showcase">
+                <div class="service-grid">
+                    <div class="service-card">
+                        <div class="service-icon">💡</div>
+                        <h3>Servis Lampu Display</h3>
+                        <p>Perbaikan atau penggantian lampu LED showcase</p>
+                        <div class="service-price">Mulai dari Rp 80.000</div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">🌡️</div>
+                        <h3>Setting Temperature</h3>
+                        <p>Kalibrasi dan setting suhu sesuai kebutuhan display</p>
+                        <div class="service-price">Mulai dari Rp 60.000</div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">🔧</div>
+                        <h3>Perbaikan Kompresor</h3>
+                        <p>Servis kompresor showcase dengan sparepart terjamin</p>
+                        <div class="service-price">Mulai dari Rp 350.000</div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">🚪</div>
+                        <h3>Servis Pintu Glass</h3>
+                        <p>Perbaikan seal, hinge, dan mekanisme pintu kaca</p>
+                        <div class="service-price">Mulai dari Rp 100.000</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Auto-scroll Indicator -->
+        <div class="auto-scroll-indicator">
+            <span>🔄 Scroll otomatis tersedia</span>
+        </div>
+    </div>
+</section>
+
+      <!-- Gallery Section -->
+<section id="gallery" class="gallery">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Galeri Kegiatan</h2>
+            <p class="section-subtitle">Dokumentasi proses service dan perbaikan yang telah kami lakukan</p>
+        </div>
+
+        <!-- Gallery Filter -->
+        <div class="gallery-filter">
+            <button class="filter-btn active" data-filter="all">Semua</button>
+            <button class="filter-btn" data-filter="ac">Service AC</button>
+            <button class="filter-btn" data-filter="kulkas">Service Kulkas</button>
+            <button class="filter-btn" data-filter="showcase">Service Showcase</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid">
+            <!-- AC Service Images -->
+            <div class="gallery-item" data-category="ac">
+                <img src="assets/gallery/ac-1.jpg" alt="Service AC Split" loading="lazy">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Cuci AC Split</h3>
+                        <p>Pembersihan unit indoor dan outdoor</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="gallery-item" data-category="ac">
+                <img src="assets/gallery/ac-2.jpg" alt="Isi Freon AC" loading="lazy">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Isi Freon</h3>
+                        <p>Pengisian refrigerant R32</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kulkas Service Images -->
+            <div class="gallery-item" data-category="kulkas">
+                <img src="assets/gallery/kulkas-1.jpg" alt="Service Kompresor Kulkas" loading="lazy">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Servis Kompresor</h3>
+                        <p>Perbaikan kompresor kulkas 2 pintu</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Showcase Service Images -->
+            <div class="gallery-item" data-category="showcase">
+                <img src="assets/gallery/showcase-1.jpg" alt="Service Showcase" loading="lazy">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Servis Showcase</h3>
+                        <p>Perbaikan sistem pendingin showcase</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Placeholder images - bisa ditambah sesuai kebutuhan -->
+            <div class="gallery-item" data-category="ac">
+                <div class="gallery-placeholder">
+                    <span>🖼️</span>
+                    <p>AC Before/After</p>
+                </div>
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>AC Cleaning Result</h3>
+                        <p>Hasil sebelum dan sesudah cleaning</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="kulkas">
+                <div class="gallery-placeholder">
+                    <span>🖼️</span>
+                    <p>Kulkas Repair</p>
+                </div>
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Kulkas Repair</h3>
+                        <p>Perbaikan sistem defrost</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="showcase">
+                <div class="gallery-placeholder">
+                    <span>🖼️</span>
+                    <p>Showcase Maintenance</p>
+                </div>
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Showcase Maintenance</h3>
+                        <p>Pemeliharaan rutin showcase</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="ac">
+                <div class="gallery-placeholder">
+                    <span>🖼️</span>
+                    <p>AC Installation</p>
+                </div>
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Pemasangan AC Baru</h3>
+                        <p>Installation service</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Upload Info -->
+        <div class="upload-info">
+            <p>📁 <strong>Upload gambar mudah:</strong> Cukup taruh file di folder <code>assets/gallery/</code> dan refresh halaman</p>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ Section -->
+<section id="faq" class="faq">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Pertanyaan Umum</h2>
+            <p class="section-subtitle">Informasi lengkap seputar layanan service yang sering ditanyakan</p>
+        </div>
+
+        <div class="faq-container">
+            <!-- Service Questions -->
+            <div class="faq-category">
+                <h3 class="faq-category-title">❄️ Service AC</h3>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Berapa lama waktu yang dibutuhkan untuk cuci AC?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Waktu service bervariasi tergantung kondisi AC:</p>
+                            <ul>
+                                <li><strong>Cuci AC reguler:</strong> 1-2 jam</li>
+                                <li><strong>Cuci AC + isi freon:</strong> 2-3 jam</li>
+                                <li><strong>Service berat + perbaikan:</strong> 3-4 jam</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Berapa harga cuci AC standar?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Harga mulai dari <strong>Rp 75.000</strong> tergantung tipe AC:</p>
+                            <ul>
+                                <li>AC Split 1/2 PK: Rp 75.000 - Rp 100.000</li>
+                                <li>AC Split 1 PK: Rp 85.000 - Rp 120.000</li>
+                                <li>AC Split 2 PK: Rp 120.000 - Rp 180.000</li>
+                                <li>AC Standing: Rp 150.000 - Rp 250.000</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Berapa freon yang dibutuhkan AC saya?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Kebutuhan freon berdasarkan PK AC:</p>
+                            <ul>
+                                <li>1/2 PK: 0.5 - 0.7 kg</li>
+                                <li>3/4 PK: 0.7 - 0.9 kg</li>
+                                <li>1 PK: 0.9 - 1.1 kg</li>
+                                <li>1.5 PK: 1.1 - 1.3 kg</li>
+                                <li>2 PK: 1.3 - 1.6 kg</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kulkas Questions -->
+            <div class="faq-category">
+                <h3 class="faq-category-title">🧊 Service Kulkas</h3>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Kenapa kulkas saya tidak dingin?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Beberapa penyebab umum kulkas tidak dingin:</p>
+                            <ul>
+                                <li>Kompresor rusak atau lemah</li>
+                                <li>Kebocoran freon</li>
+                                <li>Thermostat tidak berfungsi</li>
+                                <li>Kipas evaporator mati</li>
+                                <li>Pintu tidak tertutup rapat</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Berapa biaya service kompresor kulkas?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Biaya service kompresor mulai dari <strong>Rp 300.000</strong> tergantung:</p>
+                            <ul>
+                                <li>Tipe dan merk kulkas</li>
+                                <li>Jenis kompresor (reciprocating/rotary)</li>
+                                <li>Perbaikan atau penggantian unit</li>
+                                <li>Garansi sparepart</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- General Questions -->
+            <div class="faq-category">
+                <h3 class="faq-category-title">📋 Informasi Umum</h3>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Apakah ada garansi untuk service yang dilakukan?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Ya, semua service mendapatkan garansi:</p>
+                            <ul>
+                                <li><strong>Service ringan (cuci, isi freon):</strong> 30 hari</li>
+                                <li><strong>Service sedang (ganti sparepart):</strong> 90 hari</li>
+                                <li><strong>Service berat (ganti kompresor):</strong> 180 hari</li>
+                                <li><strong>Sparepart original:</strong> 1 tahun</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Apa yang harus saya siapkan sebelum teknisi datang?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Untuk mempermudah proses service, siapkan:</p>
+                            <ul>
+                                <li>Akses listrik yang memadai</li>
+                                <li>Area kerja yang cukup sekitar unit</li>
+                                <li>Informasi keluhan detail</li>
+                                <li>Buku manual (jika ada)</li>
+                                <li>Air bersih untuk cuci AC</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Berapa lama waktu tunggu untuk service?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Waktu tunggu berdasarkan prioritas:</p>
+                            <ul>
+                                <li><strong>Service reguler:</strong> 1-2 hari kerja</li>
+                                <li><strong>Service darurat:</strong> Same day service*</li>
+                                <li><strong>Booking weekend:</strong> Minimal H-2</li>
+                            </ul>
+                            <p><small>*Tambahan biaya emergency berlaku</small></p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Daerah mana saja yang dilayani?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Kami melayani area <strong>Tangerang Selatan dan sekitarnya</strong>:</p>
+                            <ul>
+                                <li>BSD dan sekitarnya</li>
+                                <li>Serpong</li>
+                                <li>Alam Sutera</li>
+                                <li>Gading Serpong</li>
+                                <li>Karawaci</li>
+                                <li>Dan daerah lain dalam radius 25km</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ CTA -->
+        <div class="faq-cta">
+            <h3>Masih ada pertanyaan?</h3>
+            <p>Jangan ragu untuk menghubungi kami langsung via WhatsApp</p>
+            <a href="https://wa.me/6281234567890?text=Halo,%20saya%20ada%20pertanyaan%20tentang%20service" 
+               class="btn btn-primary" target="_blank">
+                💬 Tanya Langsung di WhatsApp
+            </a>
+        </div>
+    </div>
+</section>
+    </main>
+
+<!-- ... (setelah FAQ section) ... -->
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <!-- Company Info -->
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <h3>CoolService</h3>
+                    <span>AC & Kulkas Specialist</span>
+                </div>
+                <p class="footer-description">
+                    Layanan service profesional untuk AC, kulkas, dan showcase. 
+                    Teknisi berpengalaman, bergaransi, dan harga terjangkau.
+                </p>
+                <div class="footer-contact">
+                    <div class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        <span>+62 812-3456-7890</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <span>service@coolservice.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <span>Tangerang Selatan, BSD & Sekitarnya</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-section">
+                <h4 class="footer-title">Menu Cepat</h4>
+                <ul class="footer-links">
+                    <li><a href="#hero">Beranda</a></li>
+                    <li><a href="#services">Layanan</a></li>
+                    <li><a href="#gallery">Galeri</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="booking.html">Booking Service</a></li>
+                    <li><a href="contact.html">Kontak</a></li>
+                </ul>
+            </div>
+
+            <!-- Services -->
+            <div class="footer-section">
+                <h4 class="footer-title">Layanan Kami</h4>
+                <ul class="footer-links">
+                    <li><a href="#service-ac">Service AC</a></li>
+                    <li><a href="#service-kulkas">Service Kulkas</a></li>
+                    <li><a href="#service-showcase">Service Showcase</a></li>
+                    <li><a href="#services">Cuci AC</a></li>
+                    <li><a href="#services">Isi Freon</a></li>
+                    <li><a href="#services">Perbaikan Kompresor</a></li>
+                </ul>
+            </div>
+
+            <!-- Business Hours -->
+            <div class="footer-section">
+                <h4 class="footer-title">Jam Operasional</h4>
+                <div class="business-hours">
+                    <div class="hour-item">
+                        <span>Senin - Jumat</span>
+                        <span>08:00 - 17:00</span>
+                    </div>
+                    <div class="hour-item">
+                        <span>Sabtu</span>
+                        <span>08:00 - 15:00</span>
+                    </div>
+                    <div class="hour-item">
+                        <span>Minggu</span>
+                        <span>Emergency Only</span>
+                    </div>
+                </div>
+                <div class="emergency-info">
+                    <span class="emergency-badge">🚨 Layanan Darurat 24/7</span>
+                    <p>Service emergency tersedia untuk kondisi darurat</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                <p>&copy; 2024 CoolService. All rights reserved.</p>
+            </div>
+            <div class="footer-credits">
+                <p>Professional AC & Refrigerator Services</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Floating WhatsApp Button -->
+<div id="whatsapp-float" class="whatsapp-float">
+    <a href="https://wa.me/6281234567890?text=Halo,%20saya%20butuh%20service%20AC/Kulkas%20untuk..." 
+       class="whatsapp-link" 
+       target="_blank"
+       aria-label="Chat via WhatsApp">
+        <div class="whatsapp-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893c0-3.189-1.248-6.189-3.515-8.447"/>
+            </svg>
+        </div>
+        <span class="whatsapp-text">Hubungi Kami</span>
+    </a>
+    
+    <!-- WhatsApp Options -->
+    <div class="whatsapp-options">
+        <a href="https://wa.me/6281234567890?text=Halo,%20saya%20butuh%20service%20AC" 
+           class="whatsapp-option" target="_blank">
+            ❄️ Service AC
+        </a>
+        <a href="https://wa.me/6281234567890?text=Halo,%20saya%20butuh%20service%20Kulkas" 
+           class="whatsapp-option" target="_blank">
+            🧊 Service Kulkas
+        </a>
+        <a href="https://wa.me/6281234567890?text=Halo,%20saya%20butuh%20service%20Showcase" 
+           class="whatsapp-option" target="_blank">
+            🪟 Service Showcase
+        </a>
+    </div>
+</div>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
